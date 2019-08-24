@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> CRUD com JS </title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <div class="container mt-4">
+      <div class="card">
+        <div class="card-body">
+
+          <h5 class="card-title"> Adicionar usuario </h5>
+
+          <div class="row">
+            <div class="col-md-4 col-xs-4">
+              <div class="form-group">
+                <label for="txtNome"> Nome </label>
+                <input type="text" name="txtNome" class="form-control" value="" id="txtNome">
+              </div>
+            </div>
+
+            <div class="col-md-4 col-xs-4">
+              <div class="form-group">
+                <label for="txtIdade"> Idade </label>
+                <input type="number" name="txtIdade" class="form-control" value="" id="txtIdade">
+              </div>
+            </div>
+
+            <div class="col-md-4 col-xs-4">
+              <div class="form-group">
+                <label for="txtProfissao"> Profissão </label>
+                <input type="text" name="txtProfissao" class="form-control" value="" id="txtProfissao">
+              </div>
+            </div>
+
+            <div class="col-md-12 col-xs-12">
+              <button type="button" name="btnAction" class="btn btn-primary float-right" value="Adicionar"> Adicionar </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 ">
+      <div class="card">
+        <div class="card-body">
+
+          <h5 class="card-title"> Usuarios adicionados </h5>
+
+          <table class="table table-hover mt-5">
+            <thead>
+              <tr>
+                <th scope="col"> Nome </th>
+                <th scope="col"> Idade </th>
+                <th scope="col"> Profissão </th>
+                <th scope="col"> Ações </th>
+              </tr>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
